@@ -1,8 +1,9 @@
 body {
   background-color: #fffdf4;
   position: relative;
-  min-width: 100vw;
+  min-width: 100%;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 #occhio {
@@ -11,5 +12,13 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.fill-black {
+  fill: #141718;
+}
+
+.fill-white {
+  fill: #fefbef;
 }
 
